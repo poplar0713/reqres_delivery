@@ -1,0 +1,23 @@
+apiVersion: "apps/v1"
+kind: "Deployment"
+metadata: 
+  name: "delivery"
+  labels: 
+    app: "delivery"
+spec: 
+  selector: 
+    matchLabels: 
+      app: "delivery"
+  replicas: 1
+  template: 
+    metadata: 
+      labels: 
+        app: "delivery"
+    spec: 
+      containers: 
+        - 
+          name: "delivery"
+          image: "ungacr.azurecr.io/delivery:latest"
+          ports: 
+            - 
+              containerPort: 80
