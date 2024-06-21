@@ -6,7 +6,7 @@ pipeline {
         EKS_API = 'https://D5CF89CFA1553DD0742AED5523712924.gr7.ap-southeast-2.eks.amazonaws.com'
         EKS_CLUSTER_NAME = 'user04-eks'
         EKS_JENKINS_CREDENTIAL_ID = 'Kubernetes-Cred'
-        ECR_PATH = '879772956301.dkr.ecr.ap-southeast-2.amazonaws.com/user04-delivery'
+        ECR_PATH = '879772956301.dkr.ecr.ap-southeast-2.amazonaws.com'
         ECR_IMAGE = 'user04-delivery'
         AWS_CREDENTIAL_ID = 'AWS-Cred'
     }
