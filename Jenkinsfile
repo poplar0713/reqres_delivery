@@ -7,7 +7,7 @@ pipeline {
         EKS_CLUSTER_NAME = 'user04-eks'
         EKS_JENKINS_CREDENTIAL_ID = 'Kubernetes-Cred'
         ECR_PATH = '879772956301.dkr.ecr.ap-southeast-2.amazonaws.com'
-        ECR_IMAGE = 'user04-delivery'
+        ECR_IMAGE = 'ungacr.azurecr.io/delivery'
         AWS_CREDENTIAL_ID = 'AWS-Cred'
     }
     stages {
